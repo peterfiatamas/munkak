@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="videohatter.css" type="text/css" rel="stylesheet" />
+        <title>Videóháttér</title>
+        <meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed" rel="stylesheet"> 
+    </head>
+    <body>
+        <div id="header">
+            Ez a fejléc
+        </div>
+        <div id="tarto">
+            Ez az oldal címe
+            <div id="gomb">
+                <a class="gombok" href="https://www.youtube.com/">Youtube</a>
+                <a class="gombok" href="https://vimeo.com/">Vimeo</a>
+                <a class="gombok" href="http://indavideo.hu/">Indavideo</a>
+            </div>
+        </div>
+        
+        <video class="fullscreen" loop="" autoplay="" muted=""><!--A loop az ismételt lejátszást csinálja. Jelentése: hurok, bukfenc, kanyar -->
+            <source src="movie.ogg" type="movie/ogg">
+            <source src="movie.mp4" type="movie/mp4">
+            <source src="movie.avi" type="movie/avi">
+            <source src="https://fpdl.vimeocdn.com/vimeo-prod-skyfire-std-us/01/688/8/203441999/690416955.mp4?token=1503067559-0xdf0d4268c1313f561b4b98825d1678bfb00b559d">
+        </video>
+        
+        <div id="footer">
+            © 2017 08. 18. 
+        </div>
+    </body>
+</html>
