@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #181818;
+    color: #fff;
+    font-family: 'quattrocentro', serif;
+    margin: 0;
+}
+header{
+    padding: 20px 0;
+    font-size: 180%;
+    color: #ef9f07;
+    text-align: center;
+    cursor: pointer;
+    background-color: #110218;
+    margin: 0 1% 0 1%;
+    margin-bottom: 40px;
+}
+.container{
+    width: 100%;
+
+}
+.col{
+    width: 50%;
+    float: left;
+    padding: 0 1% 0 1%;
+}
+.box{position: relative;}
+.box .image{
+    position: relative;
+}
+.box-picture{
+    width: 100%;
+    height: auto;
+}
+
+.box-content{
+    padding: 5%;
+}
+#look{display: none;}
+.box-content p{
+    line-height: 1.6;
+}
+.box-content a{
+    text-decoration: none;
+    color: #eec015;
+    margin: 10px 0;
+    padding-top: 10px;
+    border-bottom: 10px solid rgba(0,0,0,0.0);
+b{}    display: inline-block;
+    transition: all .5s;
+}
+.horgony{
+    color: #fff;
+    border-color: transparent;
+    background: #000;
+    padding: 5px 30px;
+    text-decoration: none;
+    transition: all .5s;
+    padding-bottom: 0px;
+    border-bottom: 10px solid black;
+    
+}
+/*.box:hover p{
+    color: #fff;
+    transition: all .5s;
+}
+.box-content a:hover{
+    color: #fff;
+    border-color: transparent;
+    background: #000;
+    padding: 5px 30px;
+    transition: all .5s;
+}
+.box::before{
+    content: '';
+    width: 100%;
+    background: #eec015;
+    position: absolute;
+    bottom: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1
+}
+/*.box:hover::before{
+    content: '';
+    width: 100%;
+    background: #eec015;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all .5s;
+}*/
+.title{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.8);
+    font-size: 150%;
+    font-family: 'oswald', sans-serif;
+    padding: 2% 5%;
+}
+@media(max-width:768px){
+   /* body{margin: 0;}*/
+    .col{
+        float: none;
+        width: 100%;
+        padding: 0;
+    }
+}
