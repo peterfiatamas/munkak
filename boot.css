@@ -1043,6 +1043,7 @@ h2{
 }
 .box{
     background-color: #f4f4f4;
+    cursor: context-menu;
 }
 .box, h3, .betu{
     color: #555;
